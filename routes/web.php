@@ -48,6 +48,7 @@ Route::get('/categories', function(){
         'active' => 'categories',
         'categories' => Category::all()
     ]);
+    
 });
 
 Route::get('/categories/{category:slug}', function (Category $category){
