@@ -24,7 +24,7 @@ use App\Models\User;
 
 Route::get('/', function () {
     return view( 'home', [
-        "title" => "Home",
+        "title" => "Home Home Home",
         'active' => 'home',
     ]);
 });
